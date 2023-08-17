@@ -1,4 +1,4 @@
 # CyberSecurityStuff
-This is stuff I made while learning Cyber Security.
+I'll be adding to this while learning Cyber Security.
 EDUCATIONAL PURPOSES ONLY 
 ;)
