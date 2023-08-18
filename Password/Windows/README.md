@@ -1,4 +1,4 @@
-# WINDOWS PASSWORD HASHING
+# Windows Password Hash
 
 ## Instructions
 1. Run the script *(You will be prompted for admin privileges this is so it can access registry)*
