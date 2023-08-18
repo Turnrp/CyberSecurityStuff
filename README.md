@@ -6,7 +6,7 @@ This is where you can spy on a target by watching their every move, You will see
 ## Deploying
 This is where you deploy your viruses or spyware into the computer
 
-# Recomendations
+# Recommendations
 1. If you don't want the shell open on the attacker's screen rename the file extension from **.py** to **.pyw** *(This hides the terminal)*
 2. If you are gonna be running this on a machine that **doesn't** have Python installed make sure to use something like <a href="https://pyinstaller.org/en/stable/">*Pyinstaller*</a> so it is only an exe when you run it on the other machine.
 3. For some of these you will want it to be running 24/7 so you need to make it a startup file using c.cmd or something like that.
