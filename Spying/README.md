@@ -1,5 +1,7 @@
 # Instructions
 These are **step by step** instructions on how to use these
+## Table of Contents
+- <a href="https://github.com/Turnrp/CyberSecurityStuff/tree/main/Spying#key-logger-email">Key Logger Email</a>
 ## Key Logger Email
 To use the Key Logger you will have to go into the file and set your **Email** and **API Key** on lines 7 and 8 <br />
 ```
