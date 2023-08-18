@@ -3,6 +3,8 @@
 This is where everything password-related will be located from brute force attacks to just normal file attacks there is windows related stuff and normal password stuff in there.
 ## Spying
 This is where you can spy on a target by watching their every move, You will see keyloggers and maybe internet-related stuff.
+## Deploying
+This is where you deploy your viruses or spyware into the computer
 
 # Recomendations
 1. If you don't want the shell open on the attacker's screen rename the file extension from **.py** to **.pyw** *(This hides the terminal)*
