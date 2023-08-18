@@ -7,6 +7,10 @@ EMAIL = "YOUR_EMAIL"
 API_KEY = "YOUR_API_KEY"
 ```
 Once set up deploy it on any machine then every single hour you will get a new report! <br />
+### How to make an API Key
+Open <a href="https://myaccount.google.com/apppasswords?utm_source=google-account&utm_medium=myaccountsecurity&utm_campaign=tsv-settings&rapt=AEjHL4MJWNwU_Z_E47TqShPhAMBe3prE0EcM2pN9ujvYzVVAfySDZvxJkm0Zamlm-MNAiPKlu3leOYDQ0zw_bJGRsTfVirF76A">App Passwords<\a> in Google 2FA <br />
+Press **Select App** then press pick any of your choosing then press **Generate**  <br />
+Copy the code and keep that tab open just in case then paste it into your **API Key** then it will work 
 ### Recommendations
 1. You should rename the file extension from **.py** to **.pyw**
 2. Run it through **pyinstaller** to make it an exe so you **don't need python installed in the target machine**
