@@ -117,7 +117,10 @@ class InterfaceApp(ctk.CTk):
         self.protocol("WM_DELETE_WINDOW", self.OnClosed)
 
         socket.setdefaulttimeout(3)
-        self.UpdateFileExplorer()
+        try:
+            self.UpdateFileExplorer()
+        except:
+            pass
 
     def OnClosed(self):
         with open("IpPortAddr.txt", "w") as f:
