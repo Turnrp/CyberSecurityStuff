@@ -25,6 +25,8 @@
 - mkdir <NAME> *(Makes a new directory with name specified)*
 - rem <FILE> *(Removes File with name specified)*
 - help *(Lists all the commands and how they work)*
+***for now..***
 ### WARNINGS
 - There aren't many things to worry about except that if you type a wrong command you gotta ***wait*** for it to *timeout*
 - If you do **encounter *any* bugs** when using this please **tell me** it will make this *better*!
+### Moving to Own Repo Soon!
